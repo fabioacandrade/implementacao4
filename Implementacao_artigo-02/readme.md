@@ -8,8 +8,9 @@
 
 #### Ubuntu/Debian
 
-Para instalar o OpenCV, use o seguinte comando:
+Para compilar com o OpenCV, utilizar o seguinte comando:
 
 ```bash
-sudo apt-get update
-sudo apt-get install libopencv-dev
+ g++ -o segmentation main.cpp `pkg-config --cflags --libs opencv4`
+
+
