@@ -4,8 +4,6 @@
 
 - [OpenCV](https://opencv.org/releases/): Para manipulação de imagens.
 
-### Como instalar as dependências
-
 #### Ubuntu/Debian
 
 Para compilar com o OpenCV, utilizar o seguinte comando:
